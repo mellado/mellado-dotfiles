@@ -1,6 +1,16 @@
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 set visualbell
 set background=dark
+
 set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+
+
 set showmatch
 set showcmd
 set autowrite
@@ -16,11 +26,10 @@ set laststatus=2
 set confirm
 set mouse=a
 set number
-set expandtab
-set shiftwidth=4
 set smartindent
 
-
+" bind jk keys to Escape
+inoremap jk <esc>
 """"""""""""""""""""""""""""""""""""""""""""""""""
 "                 Color scheme                   "
 """"""""""""""""""""""""""""""""""""""""""""""""""
