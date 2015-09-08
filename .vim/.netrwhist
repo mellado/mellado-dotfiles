@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/tmp_mnt/gra-lx1_users/mellado'
-let g:netrw_dirhist_2='/tmp_mnt/gra-lx1_users/mellado/.VirtualBox'
-let g:netrw_dirhist_3='/tmp_mnt/gra-lx1_users/mellado'
