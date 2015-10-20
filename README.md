@@ -20,3 +20,10 @@ mv .vim .vim.old
 ln -s .mellado-dotfiles/vim/ .vim
 ```
 
+You may also need to install flake8 command, you can do so in Debian with:
+
+```bash
+apt-get install pip
+pip install flake8
+```
+
