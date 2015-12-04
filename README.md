@@ -23,7 +23,7 @@ ln -s .mellado-dotfiles/vim/ .vim
 You may also need to install flake8 command, you can do so in Debian with:
 
 ```bash
-apt-get install pip
+apt-get install python-pip
 pip install flake8
 ```
 
