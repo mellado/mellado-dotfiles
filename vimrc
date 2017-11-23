@@ -7,6 +7,7 @@
 "
 set visualbell
 set background=dark             " Assume a dark background
+highlight Normal ctermfg=grey ctermbg=black guifg=grey guibg=black
 set shiftwidth=4                " Use indents of 4 spaces
 set expandtab                   " Tabs are spaces, not tabs
 set tabstop=4                   " An indentation every four columns
