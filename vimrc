@@ -67,3 +67,6 @@ vnoremap < <gv
 vnoremap > >gv
 inoremap jk <esc>           " bind jk keys to Escape
 
+if has("gui_running")
+  colorscheme torte
+endif
